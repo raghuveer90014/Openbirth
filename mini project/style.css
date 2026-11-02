@@ -1,0 +1,14 @@
+body {
+  background-image: url("photo.jpg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates a parallax scrolling effect */
+  background-color: #000000; /* Fallback color in case the image fails to load */
+}
+div{
+    display: flex;
+    width: 200px;
+    height: 100vh;
+    background-color: #000000;
+}
